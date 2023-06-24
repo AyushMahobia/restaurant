@@ -1,0 +1,136 @@
+header{
+    background-image: linear-gradient(180deg,#00000082 0%,var(--bg-color) 95%), url('../assets/home-img/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-section{
+    padding: 3rem 2rem;
+}
+.hero-heading{
+    font-size: 4rem;
+    line-height: 1.5;
+    margin: 1rem 3rem;
+    max-width: 40rem;
+    color: var(--heading-color);
+    font-weight: 200;
+    /* background-color: aqua; */
+}
+.hero-btn{
+    padding: 0.9rem 1.7rem;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    transition: 0.325s ease;
+    margin: 2rem 3rem 3rem;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+.hero-btn:hover{
+    background-color: var(--white);
+    color: var(--heading-color);
+}
+
+@media (max-width:52rem){
+    header{
+        background-attachment: local;
+    }
+    .hero-heading{
+        font-size: 3rem;
+    }
+}
+@media (max-width:40rem) {
+    .hero-section{
+        padding: 2rem 2rem;
+    }
+    .hero-heading{
+        font-size: 2.2rem;
+        margin: 0rem 3rem;
+    }
+    .hero-btn{
+        font-size: 0.8rem;
+    }
+    
+}
+
+/* HOME ABOUT SECTION */
+.home-about-section{
+    background: var(--bg-color);
+    padding: 3rem 1rem;
+}
+.home-about-contant{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.contant{
+    max-width: 27rem;
+}
+.contant h3{
+    font-size: 2rem;
+    font-weight: 200;
+    margin-block: 1.5rem;
+    color: var(--heading-color);
+}
+.contant p{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+.contant a{
+    margin: 0;
+    margin-bottom: 2rem;
+}
+.home-about-img{
+    max-width: 20rem;
+}
+.home-about-img img{
+    width: 100%;
+    box-shadow: -1rem 1rem 0px var(--heading-color);
+}
+
+/* Home food section */
+
+.home-food-section{
+    background-color: var(--gray);
+    padding: 3rem 1rem;
+}
+.home-food-section h3{
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-block: 1rem;
+    text-align: center;
+    align-self: center;
+    color: var(--heading-color);
+    display: inline-block;
+    float: left;
+
+}
+.home-food-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1 1 45%;
+    gap: 1rem;
+}
+
+.item{
+    max-width: 24rem;
+    margin: 1rem;
+
+}
+.item img{
+    width: 100%;
+    margin: 1rem 0;
+}
+.item h4{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: var(--heading-color);
+    line-height: 1.5;
+}
+
