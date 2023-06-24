@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Customer from './Customer'
 import '../Styles/hero.css'
 import { homeTitle, homeAbout, foodTitle, foods } from '../contants/homeConstant'
 
@@ -29,7 +30,7 @@ const Home = () => {
       <section className="home-food-section">
         <div className="container">
           <div className='home-food-items'>
-          <h3>{foodTitle}</h3>
+            <h3>{foodTitle}</h3>
             {foods.map((food, ind) => {
               return (
                 <div className="item" key={ind}>
@@ -39,9 +40,12 @@ const Home = () => {
               )
             })}
           </div>
-
         </div>
       </section>
+
+      <section className='home-static-section'/>
+
+      <Customer/>
     </>
   )
 }
