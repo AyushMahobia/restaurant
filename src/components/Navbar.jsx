@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import '../Styles/navbar.css'
+import { Outlet, Link } from "react-router-dom";
+
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const handleClick = () =>{
@@ -17,21 +19,22 @@ const Navbar = () => {
             arrow_back
           </span>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Menu</a></li>
-            <li><a href="/">Contact</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/menu">Menu</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
 
         <div className="nav-btns">
-          <a href="/" className='nav-btn-book'>Book a Table</a>
+          <Link to="/" className='nav-btn-book'>BOOK A TABLE</Link>
           <span className="material-symbols-outlined menu menu-open" onClick={handleClick}>
             menu
           </span>
          
         </div>
       </nav>
+      <Outlet/>
     </>
   )
 }

@@ -15,7 +15,6 @@ const Customer = () => {
                                     <div className="customer-name">
                                         <img src={`images/home-img/${customer.img}.jpg`} alt="/" />
                                         <h5>{customer.title}</h5>
-
                                     </div>
                                     <p>{customer.description}</p>
                                 </div>

@@ -1,14 +1,13 @@
 import React from 'react'
-import Navbar from './Navbar'
 import Customer from './Customer'
 import '../Styles/hero.css'
 import { homeTitle, homeAbout, foodTitle, foods } from '../contants/homeConstant'
+import Footer from './Footer'
 
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <header>
+      <header id='home'>
         <section className="hero-section"></section>
         <h1 className='hero-heading'>{homeTitle}</h1>
         <a href="/" className='hero-btn'>Make Reservation</a>
@@ -46,6 +45,8 @@ const Home = () => {
       <section className='home-static-section'/>
 
       <Customer/>
+      <Footer/>
+      <footer>Copyright &copy; 2023 Steak House | Powered by Steak House</footer>
     </>
   )
 }
