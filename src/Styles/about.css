@@ -1,62 +1,30 @@
-#about{
-    background-image: linear-gradient(180deg,#00000082 0%,var(--bg-color) 100%), url('../assets/about-img/about-bg.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    padding: 3rem 1rem;
-}
-#about h1, #about h4{
-    color: var(--heading-color);
-    font-weight: 200;
-    text-align: center;
-    padding: 1rem;
-    margin: 2rem;
-}
-#about h1{
-    font-size: 3.5rem;
-    margin-bottom: 3rem;
-}
-#about h4{
-    font-size: 1.5rem;
-    line-height: 1.5;
+#about {
+    background-image: linear-gradient(180deg, #00000082 0%, var(--bg-color) 100%), url('../assets/about-img/about-bg.jpg');
 }
 
-.about-img{
+
+.about-img {
     padding: 2rem 1rem;
     background-color: var(--bg-color);
 }
-.about-img img{
+
+.about-img img {
     width: 100%;
 }
 
-.about-history{
+
+.about-history {
     padding: 2rem 1rem;
     background-color: var(--bg-color);
 }
 
-@media (max-width:50rem) {
-    #about{
-        background-attachment: local;
-        padding: 2rem 1rem;
-    }
-    #about h1{
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-    #about h4{
-        font-size: 1rem;
-        margin: 2rem 0 1rem;
-    }
-}
-
-.history-content{
+.history-content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.history-content h2{
+.history-content h2 {
     float: left;
     font-size: 3rem;
     color: var(--heading-color);
@@ -64,38 +32,40 @@
     align-self: flex-start;
 }
 
-.history-content .history-detail{
+.history-content .history-detail {
     margin-top: 6rem;
     align-self: flex-end;
     max-width: 40rem;
 
 }
 
-.history-detail h3{
+.history-detail h3 {
     font-size: 1.5rem;
     color: var(--heading-color);
     margin-bottom: 1.5rem;
 }
 
-.history-detail p{
+.history-detail p {
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 1rem;
     color: var(--text-color);
 }
 
-@media (max-width: 60rem){
-    .history-content .history-detail{
+@media (max-width: 60rem) {
+    .history-content .history-detail {
         margin-top: 2rem;
     }
-    .history-detail h3{
+
+    .history-detail h3 {
         text-align: center;
     }
-    .history-detail p{
+
+    .history-detail p {
         text-align: center;
     }
 }
 
-.about-static-section{
-    background-image: linear-gradient(180deg,#00000033 0%,var(--bg-color) 100%), url('../assets/about-img/about-static.jpg');
+.about-static-section {
+    background-image: linear-gradient(180deg, #00000033 0%, var(--bg-color) 100%), url('../assets/about-img/about-static.jpg');
 }

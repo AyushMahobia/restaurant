@@ -7,7 +7,7 @@ import Footer from './Footer'
 const About = () => {
     return (
         <>
-            <section id='about'>
+            <section id='about' className='other-hero-section'>
                 <h1>{about.title}</h1>
                 <h4>{about.description}</h4>
             </section>
