@@ -10,6 +10,7 @@ const Footer = () => {
         <h3>Or Call +1 234 56 7890</h3>
         </div>
       </section>
+      <footer>Copyright &copy; 2023 Steak House | Powered by Steak House</footer>
     </>
   )
 }

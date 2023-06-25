@@ -42,11 +42,10 @@ const Home = () => {
         </div>
       </section>
 
-      <section className='home-static-section'/>
+      <section className='home-static-section static-section'/>
 
       <Customer/>
       <Footer/>
-      <footer>Copyright &copy; 2023 Steak House | Powered by Steak House</footer>
     </>
   )
 }
