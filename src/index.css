@@ -89,7 +89,7 @@ a {
   padding: 3rem 1rem;
 }
 
-.other-hero-section h1,
+.other-hero-section h2,
 .other-hero-section h4 {
   color: var(--heading-color);
   font-weight: 200;

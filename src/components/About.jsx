@@ -8,7 +8,7 @@ const About = () => {
     return (
         <>
             <section id='about' className='other-hero-section'>
-                <h1>{about.title}</h1>
+                <h2>{about.title}</h2>
                 <h4>{about.description}</h4>
             </section>
 
