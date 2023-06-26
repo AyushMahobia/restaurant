@@ -15,7 +15,8 @@ const Navbar = () => {
     <>
       <nav className={`${!toggleMenu ? "hidden" : ""}`}>
         <div className="nav-logo">
-          <Link to="/"><h3>Steak House</h3></Link>
+          {/* <Link to="/"><h3>Steak House</h3></Link> */}
+          <Link to="/"><img src="/logo.png" alt="/" className='logo'/></Link>
         </div>
 
         <div className={`navigation ${toggleMenu ? "" : "active"}`} >

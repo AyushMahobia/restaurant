@@ -10,6 +10,10 @@ nav {
 .color{
     color: var(--heading-color);
 }
+.logo{
+    max-width: 4rem;
+    padding: 0.3rem 0;
+}
 .nav-logo h3 {
     font-size: 2rem;
     font-weight: 200;
