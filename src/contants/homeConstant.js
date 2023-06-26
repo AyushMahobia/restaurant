@@ -43,3 +43,24 @@ export const customers = [
         description:"Diam, urna, ornare leo facilisis suspendisse eu rutrum id augue cursus tincidunt nisl eget ornare pharetra ac pharetra, pulvinar ipsum sed amet diam morbi amet cursus blandit augue feugiat arcu aliquet egestas id diam."
     }
 ]
+
+
+// state for changing theme
+
+// const [color, setColor] = useState({
+//   bgColor: '#111424',
+//   textColor:'#e0e0e0',
+//   white:'#ffffff',
+//   headingColor:'#ffb168',
+//   gray:'#232533'
+// })
+
+// const handleColor = () => {
+//   setColor({
+//     bgColor:color.bgColor === '#FFFAD7'?'#111424':'#FFFAD7',
+//     textColor:color.textColor === '#4C4B16'?'#e0e0e0':'#4C4B16',
+//     white:color.white === '#101010'?'#ffffff':'#101010',
+//     headingColor:color.headingColor === '#FF2171'?'#ffb168':'#FF2171',
+//     gray:color.gray === '#FFE4A7'?'#232533':'#FFE4A7',
+//   })
+// } 
