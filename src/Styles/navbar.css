@@ -3,11 +3,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 2.5rem;
+    padding-inline: 2rem;
     position: sticky;
     top: 0;
 }
-
+.color{
+    color: var(--heading-color);
+}
 .nav-logo h3 {
     font-size: 2rem;
     font-weight: 200;
