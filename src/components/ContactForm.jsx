@@ -8,7 +8,8 @@ const ContactForm = () => {
             message: ""
         }
     )
-    const handleSumbit = () => {
+    const handleSumbit = (e) => {
+        e.preventDefault();
         setInfo({});
         alert("Succefully sent an email👍")
     }
