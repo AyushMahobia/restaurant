@@ -23,11 +23,11 @@ const Navbar = () => {
           <span className="material-symbols-outlined menu menu-close" onClick={handleClick}>
             arrow_back
           </span>
-          <ul onClick={handleClick}>
-            <li><Link to="/" className={`${location.pathname === '/' ? "color" : ""}`}>Home</Link></li>
-            <li><Link to="/about" className={`${location.pathname === '/about' ? "color" : ""}`}>About</Link></li>
-            <li><Link to="/menu" className={`${location.pathname === '/menu' ? "color" : ""}`}>Menu</Link></li>
-            <li><Link to="/contact" className={`${location.pathname === '/contact' ? "color" : ""}`}>Contact</Link></li>
+          <ul>
+            <li><Link to="/" className={`${location.pathname === '/' ? "color" : ""}`} onClick={handleClick}>Home</Link></li>
+            <li><Link to="/about" className={`${location.pathname === '/about' ? "color" : ""}`} onClick={handleClick}>About</Link></li>
+            <li><Link to="/menu" className={`${location.pathname === '/menu' ? "color" : ""}`} onClick={handleClick}>Menu</Link></li>
+            <li><Link to="/contact" className={`${location.pathname === '/contact' ? "color" : ""}`} onClick={handleClick}>Contact</Link></li>
           </ul>
         </div>
 

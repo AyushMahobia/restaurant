@@ -94,12 +94,13 @@ ul li a:hover {
         width: 100%;
         padding: 1.5rem 2rem;
         margin: 0;
-        border-bottom: 0.01rem dashed var(--dark-orange);
-
+        border-bottom: 1px dashed var(--heading-color);
+        -webkit-border-bottom-before: 1px dotted var(--heading-color);
     }
 
     .navigation ul li:first-child{
-        border-top: 1px dashed var(--dark-orange);
+        border-top: 1px dashed var(--heading-color);
+        -webkit-border-top-before: 1px dashed var(--heading-color);
     }
 
     .menu-close{
