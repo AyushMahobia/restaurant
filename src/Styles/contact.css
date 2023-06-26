@@ -1,0 +1,15 @@
+#contact{
+    background-image: linear-gradient(180deg, #00000082 0%, var(--bg-color) 100%), url('../assets/contact-img.jpg');
+}
+#contact h2{
+    margin-bottom: 0rem;
+    padding-top: 5rem;
+    color: var(--heading-color);
+    font-size: 4rem;
+    text-align: center
+}
+#contact h4{
+    margin: 0;
+    padding-bottom: 2rem;
+    color: var(--white);
+}

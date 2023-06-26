@@ -1,6 +1,10 @@
 import React from 'react'
 import '../Styles/menu.css'
-import { menuSection, menuCard, menus, beverages } from '../contants/menuConstant'
+import { menuSection } from '../contants/menuConstant'
+import Cards from './Cards'
+import Dish from './Dish'
+import BestSeller from './BestSeller'
+import Footer from './Footer'
 const Menu = () => {
   return (
     <>
@@ -8,6 +12,7 @@ const Menu = () => {
         <h2>Our Menu.</h2>
         <h4>Smoked Stories</h4>
       </section>
+
       <section className='menu-section'>
         <div className="container">
           <h2>{menuSection.title}</h2>
@@ -16,38 +21,16 @@ const Menu = () => {
         </div>
       </section>
 
-      <section className='card-section'>
-        <div className="container cards">
-          {menuCard.map((card, ind) => {
-            return (
-              <div className="card" key={ind}>
-                <h5>{card.title}</h5>
-                <span>{card.prize}</span>
-              </div>
-            )
-          })}
+      <BestSeller/>
+      <Dish/>
+
+      <section className="other-stuff">
+        <div className="container other-stuff-list">
+          <Cards/>
         </div>
       </section>
 
-      <section className="dish-section">
-        <div className="container dishes">
-          {menus.map((menu, ind) => {
-            return (
-              <div className="dish" key={ind}>
-                <div className="dish-info">
-                  <h5>{menu.title}</h5>
-                  <p className='prize'>{menu.prize}</p>
-                  <p className='dish-des'>{menu.description}</p>
-                </div>
-                <div className="dish-img">
-                  <img src={`images/menu-img/${menu.img}.png`} alt="" />
-                </div>
-
-              </div>
-            )
-          })}
-        </div>
-      </section>
+      <Footer/>
     </>
   )
 }

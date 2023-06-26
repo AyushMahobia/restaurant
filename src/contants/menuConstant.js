@@ -61,6 +61,7 @@ export const menus = [
     }
 ]
 
+export const beverageTitle = "Beverages"
 export const beverages = [
     {
         title:"Water",
@@ -70,7 +71,7 @@ export const beverages = [
     {
         title:"Choice of Mocktail",
         prize:"$12",
-        tags:"Bluberry / Mojito / Margarita / Bloody Merry"
+        tags:"Bluberry / Mojito / Margarita"
     },
     {
         title:"Non-alcoholic Beer",
@@ -79,6 +80,7 @@ export const beverages = [
     },
 ]
 
+export const dessertsTitle = "Desserts"
 export const desserts = [
     {
         title:"Ice Creams (Scoop)",
