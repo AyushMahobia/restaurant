@@ -7,17 +7,19 @@
 }
 
 :root {
-  --dark-orange: #efa765;
   --heading-color: #ffb168;
   --white: #ffffff;
   --text-color: #e0e0e0;
   --gray: #232533;
   --bg-color: #111424;
-  --ast-global-color-6: #243673;
-  --ast-global-color-7: #FBFCFF;
-  --ast-global-color-8: #BFD1FF;
   --heading-font: 'Yeseva One', cursive;
   --text-font: 'Roboto', sans-serif;
+
+  --bg2-color:#FFFAD7;
+  --gray-reverse:#FFE4A7;
+  --heading-color-two:#FF2171;
+  --text-color-two:#4C4B16;
+  --black:#101010;
 }
 
 h1,
