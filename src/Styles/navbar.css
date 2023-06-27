@@ -4,8 +4,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding-inline: 2rem;
-    /* position: sticky; */
+    position: relative;
+    /* overflow: hidden; */
     top: 0;
+}
+.hidden{
+    overflow: hidden;
 }
 .color{
     color: var(--heading-color);
@@ -112,7 +116,5 @@ ul li a:hover {
         transform: translateX(100%);
     }
 
-    .hidden{
-        overflow: hidden;
-    }
+   
 }
