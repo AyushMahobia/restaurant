@@ -21,6 +21,10 @@
   --text-color-two:#4C4B16;
   --black:#101010;
 }
+::selection {
+  color: var(--black);
+  background: var(--heading-color);
+}
 
 h1,
 h2,
